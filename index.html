@@ -2,19 +2,6 @@
 <html>
 
 <head>
-    <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
     <base href="/presen-karaoke/">
 
     <meta charset="UTF-8">
@@ -30,15 +17,28 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.ico" />
 
-    <title>presen_karaoke</title>
+    <title>プレゼンカラオケ</title>
     <link rel="manifest" href="manifest.json">
 
     <script>
         // The value below is injected by flutter build, do not touch.
-        var serviceWorkerVersion = '3091388884';
+        var serviceWorkerVersion = '1183250318';
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2FDRT9MMG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-V2FDRT9MMG');
+    </script>
 </head>
 
 <body>
