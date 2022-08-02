@@ -59952,7 +59952,7 @@ return b instanceof A.jh&&b.e.mA(0,s.e)&&b.b===s.b&&!0},
 gu(a){var s=this
 return A.V(A.e9.prototype.gu.call(s,s),s.e,s.b,s.c,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.oE.prototype={
-M(a,b){return A.acJ(new A.uE(this.c,this.d,null),A.a8W(null,null,B.r5),"Flutter Demo")}}
+M(a,b){return A.acJ(new A.uE(this.c,this.d,null),A.a8W(null,null,B.r5),"\u30d7\u30ec\u30bc\u30f3\u30ab\u30e9\u30aa\u30b1")}}
 A.uE.prototype={
 ao(){return new A.xX(B.m)}}
 A.xX.prototype={
@@ -60009,7 +60009,7 @@ break
 case 1:return A.a0(q,r)}})
 return A.a1($async$pc,r)},
 M(a,b){var s=A.a8W(null,"NotoSansJP",B.r5)
-return A.acJ(new A.o8(this.pc(),new A.UH(),null,t.jz),s,"Flutter Demo")}}
+return A.acJ(new A.o8(this.pc(),new A.UH(),null,t.jz),s,"\u30d7\u30ec\u30bc\u30f3\u30ab\u30e9\u30aa\u30b1")}}
 A.UH.prototype={
 $2(a,b){var s=null,r=b.b
 if(r!=null)return new A.uD(J.dy(r),s)
